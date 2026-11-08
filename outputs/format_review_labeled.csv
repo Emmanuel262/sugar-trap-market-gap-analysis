@@ -1,0 +1,61 @@
+code,product_name,brands,decided_by,matched_word,sugars_100g,proteins_100g,first_guess,format_confirmed,notes
+0037466013039,Tablette de chocolat Excellence 99% Cacao,Lindt,tag,chocolate,2.0,16.0,c,c,99% cacao tablet
+0096619050611,Thick Sliced Center Cut Bacon,Costco Wholesale Corporation,tag,confectionery,0.0,38.5,c,o,bacon - not confectionery at all
+0631656560329,Chocolate Fudge,Iovate Health Sciences International Inc.,name,chocolate,0.0,37.5,c,b,Iovate (MuscleTech) sports product; macros fit a protein bar
+0634065622329,Waouh caramel crunch,,name,caramel,3.0,31.0,c,b,macros fit a protein bar
+0637480025720,Dark Chocolate Decadence Bar,"Atkins,  Atkins Nutritionals  Inc.",name,chocolate,2.3,20.4,b,b,bar
+0637480035026,Caramel chocolate peanut nougat bars,Atkins,name,nougat,2.3,20.4,b,b,bar
+0637480035057,Caramel double chocolate crunch bars,Atkins,name,chocolate,4.5,22.7,b,b,bar
+0637480035408,Triple chocolate snack bar,Atkins,name,chocolate,0.0,30.0,b,b,snack bar
+0637480041805,Dark chocolate sea salt caramel bar,"Atkins,  Atkins Nutritionals  Inc.",name,caramel,2.6,21.0,b,b,bar
+0637480055475,Day Break Chocolate Oatmeal Fiber Bar,Atkins Nutritionals  Inc.,name,chocolate,2.5,15.0,b,b,bar
+0658010119290,High protein chocolate fudge,Garden Of Life,name,chocolate,1.8,25.5,c,b,Garden of Life high-protein bar; macros fit a bar
+0693413100698,"Chocolate & caramel anytime bars, chocolate & caramel",Clinical Products Ltd.,name,caramel,2.4,23.8,b,b,bar
+0693413100704,"Chocolate & Caramel Bar, Nutra9 Blend",Clinical Products Ltd.,name,caramel,0.0,23.8,b,b,bar
+0713733514699,"Caramel chocolate peanut nougat snack bars, caramel chocolate peanut nougat",Meijer  Inc.,name,nougat,2.3,22.7,b,b,snack bar
+0715547846492,Dark chocolate couverture,,name,chocolate,0.4,15.0,c,c,couverture is solid chocolate
+0715547889789,Chocolat,Chocolat Madagascar,tag,chocolate,0.0,15.0,c,c,dark chocolate tablet
+0748927029710,High Protein Gainerdouble Chocolate,Optimum Nutrition,name,chocolate,0.0,36.4,c,s,mass-gainer powder; the rule missed it because 'Gainerdouble' is one word
+0788434107433,Salted Caramel,Johnsonville,name,caramel,1.7,33.3,c,o,Johnsonville is a sausage maker - this is not a confection
+0793573169778,Protein peanut butter cups,Mr. Beverages Old Time Cocktail Mixes,tag,confectionery,2.0,40.0,c,c,a confectionery cup; brand field looks wrong but the format is candy
+0810474006046,Unsweetened Chocolate Drinking,Dagoba Organic Chocolate,name,chocolate,0.0,20.0,c,s,"Dagoba drinking-chocolate powder, not a ready-to-eat confection"
+0813926002733,Bar proton paleo chocolate brown,,name,chocolate,1.6,32.3,b,b,bar
+0814784020761,Sol Good Salted Caramel,Sol Good,name,caramel,3.0,19.0,c,b,Sol Good makes protein bars and bites
+0858645005016,Organic Coconut & Toasted Carob,Vukoo  Llc,tag,confectionery,2.4,22.4,c,b,Vukoo makes bars
+0858645005023,"Vukoo, chocolate bar, organic dark chocolate, almonds & organic coconut",Vukoo,tag,confectionery,3.5,22.4,b,b,the name says bar
+0888849001392,Quest Bar White Chocolate Raspberry,Quest Bar,name,chocolate,2.0,33.0,b,b,protein bar
+0888849001415,Quest Bar Doble Chocolate,Quest,name,chocolate,1.0,33.0,b,b,protein bar
+0888849001811,Questbar Mint Chocolate Chunk 60 G,Questbar,name,chocolate,1.0,33.0,c,b,protein bar
+2000000045735,chocolat noir 70 % amandes caramélisées,Bouillet,tag,chocolate,4.8,22.4,c,c,dark chocolate with caramelised almonds; protein looks high for the format
+2600280009649,Escalope extra fine dinde,sans marque,tag,confectionery,0.5,25.0,c,o,turkey escalope - not a confection
+29038183,Saumon fumé Écosse,Storck,tag,confectionery,0.0,23.0,c,o,smoked salmon - not a confection
+29040766,Organic british beef meatballs,Marks & Spencers,tag,confectionery,0.5,18.2,c,o,meatballs - not a confection
+3046920028264,Lindt excellence  99%,Lindt,tag,chocolate,1.0,15.0,c,c,99% cacao tablet
+3538280035537,Chewing gum,Hollywood,name,chewing gum,0.0,16.0,c,o,chewing gum cannot contain 16 g protein - bad data
+3700056703500,Amandes,Alter Eco,tag,chocolate,4.4,25.4,c,o,"almonds - the nutrition matches plain nuts, not a chocolate confection"
+3700251000459,Chocolat noir Venezuela Rio Caribe,Chapon,tag,chocolate,0.0,15.0,c,c,dark chocolate tablet
+3700548631151,Barre Crisp banane caramel,,name,caramel,4.9,35.6,b,b,'barre' is French for bar
+3760027470015,Brut de Cacao Lin Noir,Le Clos de l'Arche,tag,chocolate,1.0,21.0,c,c,"raw cacao with flaxseed, eaten as chocolate"
+3760110970446,Tablette pur cacao 100% sans sucre,Facon Chocolat,tag,chocolate,0.4,16.9,c,c,100% cacao tablet
+3760215810302,Le p'tit riz au lait caramel,Tedragosa,name,caramel,1.0,31.9,c,o,rice pudding; 31.9 g protein is impossible for it - bad data
+3760255042718,Chocolat noir,Manufacture du Touquet,tag,chocolate,1.8,16.0,c,c,dark chocolate tablet
+3770004548378,Equador Chocolat Noir 99% cacao,Marque Repère,tag,chocolate,1.1,15.0,c,c,99% cacao tablet
+4044782305775,Yippie! High Protein 35% Salted Caramel Flavour,Weider,name,caramel,3.7,35.0,c,b,Weider Yippie! is a protein bar
+4044782308974,Body Shaper Low Carb Chocolate Bar,,name,chocolate bar,2.6,40.0,b,b,bar
+4250350506905,Yambam Peanutbutter Caramel,Body Attack,name,caramel,4.9,33.0,c,b,Body Attack Yambam is a protein bar
+4260289446364,Protein Bar chocolate flavour,Nu3,name,chocolate,1.7,40.0,b,b,protein bar
+4260426830766,Imperius,imperius,tag,confectionery,3.4,36.0,c,b,same brand as 'Imperius Bar Dark Chocolate' below; a bar
+4260426833477,Imperius Bar Dark Chocolate,,name,chocolate,0.4,16.2,b,b,bar
+5051882174568,Protein Chocolate Crunch,Weight Watchers,name,chocolate,4.5,23.0,c,b,Weight Watchers protein snack bar
+5055534305331,My Protein Recovery XS Chocolate Smooth - 1800g,My Protein,name,chocolate,0.7,27.0,c,s,recovery powder sold in a 1.8 kg tub
+5060221201827,Grenade Carb Killa White Chocolate Bars - 12 x 60G 522 / 8076,Grenade,name,chocolate bar,3.3,37.4,b,b,protein bar multipack
+5060221203487,Grenade Carb Killa White Chocolate Mocha,,name,chocolate,3.3,37.7,c,b,Carb Killa is a protein bar; the name just omits the word 'bar'
+5060302580407,100% organic cacao Drinking Chocolate,,name,chocolate,0.7,27.1,c,s,"drinking-chocolate powder, not a ready-to-eat confection"
+5060318691562,Battle Bites,,tag,confectionery,4.0,32.0,b,b,Battle Bites is a protein bar
+5060343742802,Complete Mass Chocolate,Bulk Powders,name,chocolate,1.3,29.9,c,s,Bulk Powders 'Complete Mass' is a mass-gainer powder
+5410063033702,Modifast Protein Shape Mini Bites Chocolate Soja. ..,Modifast,name,chocolate,1.0,30.0,b,b,diet 'mini bites'
+5600380891721,Bar sabor chocolate,Prozis,name,chocolate,1.7,33.0,b,b,bar
+5600380892520,Diet bar,Prozis,tag,confectionery,5.0,36.0,b,b,bar
+5600380894890,Zero snack double chocolate,Prozis,name,chocolate,3.0,32.0,c,b,Prozis 'Zero snack' bar
+5600826209875,Double Chocolate Flavour,Prozis,tag,confectionery,1.7,33.0,c,b,identical macros to the Prozis 'Bar sabor chocolate' row - same bar
+5600826209899,Diet Bar,Prozis,tag,confectionery,4.8,37.0,b,b,bar

@@ -1,0 +1,21 @@
+# Packages the notebook needs. Google Colab ships all of them, so this file matters
+# only for a local run:
+#
+#     pip install -r requirements.txt
+#
+# Pinned to a lower bound rather than an exact version, because the notebook uses
+# long-stable parts of each library.
+
+pandas>=2.0,<3.0      # 3.0 renames enough of the CSV and groupby behaviour to be worth avoiding
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+pyarrow>=12.0         # writes and reads the cached slice as Parquet
+ipython>=8.0          # display() in the notebook
+
+# Only needed to produce the HTML export of the run:
+#   jupyter nbconvert --to html --execute sugar_trap_market_gap_analysis.ipynb
+nbconvert>=7.0
+nbformat>=5.0
+jupyter-client>=8.0
+ipykernel>=6.0

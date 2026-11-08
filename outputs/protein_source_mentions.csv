@@ -1,0 +1,29 @@
+group,source,products_in_group,products_with_ingredients,products_mentioning,share_of_readable_%,rank
+the category's own kind,Almond,0,0,0,0.0,1
+the category's own kind,Cocoa or cacao,0,0,0,0.0,2
+the category's own kind,Egg,0,0,0,0.0,3
+the category's own kind,Gelatin or collagen,0,0,0,0.0,4
+the category's own kind,Milk powder,0,0,0,0.0,5
+the category's own kind,Milk protein or casein,0,0,0,0.0,6
+the category's own kind,Other tree nuts,0,0,0,0.0,7
+the category's own kind,Pea protein,0,0,0,0.0,8
+the category's own kind,Peanut,0,0,0,0.0,9
+the category's own kind,Rice protein,0,0,0,0.0,10
+the category's own kind,Seeds,0,0,0,0.0,11
+the category's own kind,Soy,0,0,0,0.0,12
+the category's own kind,Wheat protein or gluten,0,0,0,0.0,13
+the category's own kind,Whey,0,0,0,0.0,14
+all qualifying,Cocoa or cacao,57,39,27,69.2,1
+all qualifying,Milk protein or casein,57,39,17,43.6,2
+all qualifying,Soy,57,39,17,43.6,3
+all qualifying,Whey,57,39,17,43.6,4
+all qualifying,Gelatin or collagen,57,39,14,35.9,5
+all qualifying,Almond,57,39,9,23.1,6
+all qualifying,Milk powder,57,39,8,20.5,7
+all qualifying,Peanut,57,39,7,17.9,8
+all qualifying,Egg,57,39,2,5.1,9
+all qualifying,Other tree nuts,57,39,2,5.1,10
+all qualifying,Seeds,57,39,2,5.1,11
+all qualifying,Pea protein,57,39,1,2.6,12
+all qualifying,Rice protein,57,39,0,0.0,13
+all qualifying,Wheat protein or gluten,57,39,0,0.0,14

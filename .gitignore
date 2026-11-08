@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# Source data and the cached slice
+#
+# The Open Food Facts export is several gigabytes. The notebook downloads it, keeps
+# a local cache and rebuilds everything from it, so none of this belongs in the repo.
+# ---------------------------------------------------------------------------
+off_slice.parquet
+off_slice.csv.gz
+off_slice_provenance.json
+en.openfoodfacts.org.products.csv
+en.openfoodfacts.org.products.csv.gz
+*.csv.gz
+
+# ---------------------------------------------------------------------------
+# Large derived tables, all rebuilt by running the notebook
+# ---------------------------------------------------------------------------
+outputs/all_clean_products.csv.gz
+outputs/removed_rows.csv.gz
+outputs/dashboard_products.csv
+outputs/products.csv.gz
+sugar_trap_dashboard_data.zip
+sugar_trap_evidence.zip
+
+# ---------------------------------------------------------------------------
+# Superseded working files
+#
+# outputs/sugar_trap_outputs/ is output from an earlier version of the notebook and
+# does not match the current one. sugar_trap_market_gap_analysis_improved.ipynb is a
+# superseded draft. Both are kept on disk but left out of the repo so the submission
+# holds one notebook and one set of outputs.
+# ---------------------------------------------------------------------------
+outputs/sugar_trap_outputs/
+sugar_trap_market_gap_analysis_improved.ipynb
+outputs/*_original_headers.csv
+
+# ---------------------------------------------------------------------------
+# Python and Jupyter
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.python-version
+*.egg-info/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Microsoft Office lock files (created while a document is open)
+# ---------------------------------------------------------------------------
+~$*
