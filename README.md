@@ -14,24 +14,41 @@ stops.
 
 ## A. Executive summary
 
-> ⚠️ **NOT YET FILLED IN — do this before submitting.** Run the notebook top to bottom, then paste the
-> summary it prints in Section 8 here, replacing this whole block. The same text is written to
-> `outputs/executive_summary.md`, and every figure in it comes from the run that produced it. Do not copy
-> the figures below from an earlier run: the numbers move when the export changes.
+Of the first 500,000 rows of the Open Food Facts export, 433,181 survived cleaning and were sorted into 17
+readable categories, seven of which form the snack aisle. Across the whole catalogue 15.2% of products are
+low in sugar and high in protein (5 g or less and 15 g or more per 100 g), but in the snack aisle only 5.1%
+of 84,200 products are — and almost all the healthy products sit in meat, fish, eggs and dairy rather than
+in snacking. **Based on the data, the biggest market opportunity is in Chocolate & Candy, specifically
+targeting products with 15 g of protein and less than 5 g of sugar per 100 g**: it is the largest snack shelf
+at 25,399 listings, yet only 57 of them (0.2%) clear both limits, and it ranks first on the white-space score
+in 9 of 9 settings that keep category size, and first again when size is removed. Among the qualifying
+products that carry a readable ingredient list, the protein comes most often from cocoa (27 of 39 labels),
+milk protein or casein (17) and soy (17). This is a gap on the shelf, not proven demand: Open Food Facts
+records what brands offer, not what shoppers buy, so demand should be tested with sales or survey data before
+R&D commits.
+
+*The full summary, with provenance and every caveat, is in [`outputs/executive_summary.md`](outputs/executive_summary.md)
+and in Section 8 of the notebook. These figures come from the export dated 7 November 2026 (slice fingerprint
+`9b4c59b97ce5`); in that run the hand-written category and product-format reviews were not loaded, so the
+protein target is the 15 g screening level rather than a value read off confirmed sweets. Re-running the
+notebook with `outputs/category_audit_labeled.csv` and `outputs/format_review_labeled.csv` in place reports a
+measured 85.6% category accuracy and derives the target from the 11 confirmed chocolate products.*
 
 ---
 
 ## B. Project links
 
-> ⚠️ **NOT YET FILLED IN — do this before submitting.** Every link below must open in an Incognito window
-> with no login. The brief rejects "permission error" excuses.
+| Deliverable | Link |
+|---|---|
+| Notebook (Google Colab) | https://colab.research.google.com/drive/1P6Q1VPalPjZKl4qBOt28y_1tgFjdaf7u?usp=sharing |
+| Dashboard (Looker Studio) | https://datastudio.google.com/reporting/5e52052f-856d-4360-892b-6b8951080faf |
+| Repository | https://github.com/Emmanuel262/sugar-trap-market-gap-analysis |
+| Presentation | `The_Sugar_Trap_Presentation.pptx` in this repository |
+| Notebook export | `sugar_trap_market_gap_analysis.html` in this repository |
 
-| Deliverable | Link | Done |
-|---|---|---|
-| Notebook (Google Colab) | *paste the Colab link, shared as "Anyone with the link can view"* | ☐ |
-| Dashboard (Looker Studio) | *paste the public link, tested in an Incognito window* | ☐ |
-| Presentation | *paste the slide link, shared as "Anyone with the link can view"* | ☐ |
-| Video walkthrough (optional) | *paste the YouTube link* | ☐ |
+> ⚠️ **Still to confirm before submitting:** open the Colab link in an Incognito window to check it is shared
+> as "Anyone with the link can view" — the sharing setting cannot be verified from the link alone. The brief
+> rejects "permission error" excuses.
 
 ---
 

@@ -21,11 +21,16 @@ partial coverage is visible rather than silent.
 Everything else in this folder is written by the notebook and is replaced the next time it runs. A full run
 writes 23 files here.
 
-> ⚠️ **The generated files currently in this folder are from a superseded run and do not all match the
-> current notebook.** `executive_summary.md` in particular was written before the hand-written reviews were
-> wired up, so it reports the category accuracy as not read and the protein target as the 15 g screening
-> level. Run the notebook top to bottom to replace them, then refresh the executive summary in the top-level
-> `README.md` from the new `executive_summary.md`.
+> ⚠️ **This folder is incomplete: it holds a handful of files rather than the full set.** The ones here come
+> from the run dated 7 November 2026, which is the run the slides and the executive summary in the top-level
+> `README.md` are built from, so those three agree with each other. That run did not load the hand-written
+> reviews, so it reports the category accuracy as not read and the protein target as the 15 g screening
+> level.
+>
+> Running the notebook top to bottom — with the two labelled files above in place — fills the folder, reports
+> the measured 85.6% category accuracy and derives the protein target from confirmed sweets. After that run,
+> refresh the executive summary in the top-level `README.md` from the new `executive_summary.md` so the two
+> stay in step.
 
 The large ones — `all_clean_products.csv.gz`, `removed_rows.csv.gz`, `dashboard_products.csv` — are excluded
 by `.gitignore`, because they are rebuilt from the source data rather than edited.
